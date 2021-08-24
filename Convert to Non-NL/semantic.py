@@ -10,7 +10,7 @@ stop_words = stopwords.words("english")
 from tqdm.notebook import tqdm
 
 from sentence_transformers import SentenceTransformer
-model = SentenceTransformer(r'C:\Users\t-npaharia\Desktop\models\stsb-bert-base')
+model = SentenceTransformer(PATH)
 
 ### text is inpu data, label is the topic name for data
 
