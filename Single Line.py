@@ -24,7 +24,7 @@ from IPython.display import display
 splitter = spacy.load("en_core_web_sm")
 import random
 
-data = np.load('path to auto data(Datasets/auto_data_v2)', allow_pickle= True)
+data = np.load('path to raw data', allow_pickle= True)
 df = copy.deepcopy(data)
 
 # break sentence
